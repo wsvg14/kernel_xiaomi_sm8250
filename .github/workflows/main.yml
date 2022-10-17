@@ -25,7 +25,7 @@ jobs:
         NAME: immensity
       with:
         arch: arm64
-        compiler: aosp-clang/master/clang-r468909b
+        compiler: aosp-clang/master/clang-r468909b/binutils
         defconfig: apollo_defconfig
         image: Image
 
